@@ -1,0 +1,150 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    background: #f7f9fb;
+    color: #222;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 40px auto;
+    padding: 24px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a.home {
+    text-decoration: none;
+    color: #0078d7;
+    font-weight: 600;
+}
+
+h1 {
+    color: #0078d7;
+}
+
+.team {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+    margin-top: 24px;
+}
+
+.member {
+    padding: 16px;
+    border-radius: 10px;
+    background: #f0fbff;
+}
+
+.member h3 {
+    margin: 0 0 8px 0;
+}
+
+footer {
+    margin-top: 32px;
+    font-size: 0.95rem;
+    color: #666;
+}
+
+/* Roadmap Styles */
+.roadmap {
+    margin-top: 40px;
+}
+
+.roadmap h2 {
+    color: #0078d7;
+    margin-bottom: 8px;
+}
+
+.roadmap > p {
+    color: #666;
+    margin-bottom: 32px;
+}
+
+.roadmap-timeline {
+    position: relative;
+    padding-left: 30px;
+}
+
+/* Timeline line */
+.roadmap-timeline::before {
+    content: '';
+    position: absolute;
+    left: 15px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: #ffd54f;
+}
+
+.milestone {
+    position: relative;
+    padding: 12px 16px;
+    margin-bottom: 16px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    border: 1px solid #fff9c4;
+    border-left: 4px solid #ffd54f;
+    margin-left: 40px;
+}
+
+.milestone-date {
+    font-size: 0.75rem;
+    color: #f57f17;
+    font-weight: 600;
+    margin-bottom: 4px;
+    background: rgba(255, 235, 59, 0.15);
+    padding: 2px 8px;
+    border-radius: 12px;
+    display: inline-block;
+}
+
+.milestone-status {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    font-size: 0.75rem;
+    text-align: center;
+    line-height: 22px;
+    margin-bottom: 6px;
+    font-weight: 600;
+    float: right;
+}
+
+.milestone-status.completed {
+    background: #e8f5e8;
+    color: #2e7d32;
+}
+
+.milestone-status.in-progress {
+    background: #fff3e0;
+    color: #f57c00;
+}
+
+.milestone-status.planned {
+    background: #f3e5f5;
+    color: #7b1fa2;
+}
+
+.milestone h3 {
+    margin: 0 0 4px 0;
+    color: #333;
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+
+.milestone p {
+    margin: 0;
+    color: #666;
+    font-size: 0.85rem;
+    line-height: 1.4;
+}
