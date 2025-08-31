@@ -56,7 +56,7 @@ function App() {
       <div ref={bubbleContainerRef} className="bubble-container" />
       <nav className="navbar">
         <div className="logo">
-          <a href="#" className="navbar-bubble-link logo">Bubbles</a>
+          <a href="downloadbubbles.com" className="navbar-bubble-link logo">Bubbles</a>
         </div>
         <div className="nav-links-container">
           <ul className="nav-links">
@@ -81,7 +81,7 @@ function App() {
                 <td>Windows</td>
                 <td>
                   <div className="download-cell">
-                    <a href="#" className="download-link" ref={tableDownloadRef} onClick={(e) => { 
+                    <a href="downloadbubbles.com" className="download-link" ref={tableDownloadRef} onClick={(e) => { 
                       e.preventDefault(); 
                       trackDownload('Windows'); 
                       releaseBubbles(tableDownloadRef); 
