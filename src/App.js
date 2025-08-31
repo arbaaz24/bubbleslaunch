@@ -81,7 +81,7 @@ function App() {
                 <td>Windows</td>
                 <td>
                   <div className="download-cell">
-                    <a href="/downloads/setup.exe" className="download-link" ref={tableDownloadRef} onClick={(e) => { 
+                    <a href="/public/downloads/setup.exe" className="download-link" ref={tableDownloadRef} onClick={(e) => { 
                       e.preventDefault(); 
                       trackDownload('Windows'); 
                       releaseBubbles(tableDownloadRef); 
