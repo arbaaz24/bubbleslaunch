@@ -81,7 +81,10 @@ function App() {
                 <td>Windows</td>
                 <td>
                   <div className="download-cell">
-                    <a href="/downloads/setup.exe" className="download-link" download>Download .exe</a>
+                    <a href="/downloads/setup.exe" className="download-link" ref={tableDownloadRef} download onClick={(e) => { 
+                      trackDownload('Windows'); 
+                      releaseBubbles(tableDownloadRef); 
+                    }}>Download .exe</a>
                     <span className="free-badge">It's free!</span>
                   </div>
                 </td>
