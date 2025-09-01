@@ -56,7 +56,7 @@ function App() {
       <div ref={bubbleContainerRef} className="bubble-container" />
       <nav className="navbar">
         <div className="logo">
-          <a href="downloadbubbles.com" className="navbar-bubble-link logo">Bubbles</a>
+          <a href="https://downloadbubbles.com" className="navbar-bubble-link logo">Bubbles</a>
         </div>
         <div className="nav-links-container">
           <ul className="nav-links">
@@ -81,7 +81,7 @@ function App() {
                 <td>Windows</td>
                 <td>
                   <div className="download-cell">
-                    <a href="/downloads/setup.exe" className="download-link" ref={tableDownloadRef} download onClick={(e) => { 
+                    <a href="/downloads/BubblesInstaller.msi" className="download-link" ref={tableDownloadRef} download onClick={(e) => { 
                       trackDownload('Windows'); 
                       releaseBubbles(tableDownloadRef); 
                     }}>Download .exe</a>
