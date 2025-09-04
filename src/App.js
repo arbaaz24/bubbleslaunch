@@ -97,6 +97,29 @@ function App() {
           </table>
         </div>
       </section>
+      <section className="video-howto-section" id="video">
+        <h2>How to Use Bubbles?</h2>
+        <div className="video-howto-container">
+          <div className="video-container">
+            <iframe 
+              src="https://www.youtube.com/embed/29KCztvfyUc" 
+              title="How to Use Bubbles?"
+              frameBorder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              allowFullScreen
+              className="youtube-video"
+            ></iframe>
+          </div>
+          <div className="howto-steps">
+            <h3>Step-by-Step Guide</h3>
+            <p>Step 1. Start Bubbles, add a bubble</p>
+            <p>Step 2. Select files from folder of choice</p>
+            <p>Step 3. Drag them into a bubble</p>
+            <p>Step 4. Go to the application/website where you want to share those files</p>
+            <p>Step 5. Drag FROM the bubble, drop on the application/website</p>
+          </div>
+        </div>
+      </section>
       <section className="features" id="features">
         <h2>Features</h2>
         <div className="features-list">
@@ -120,14 +143,6 @@ function App() {
             <p>Add</p>
             <p>Clear</p>
             <p>Pop</p>
-          </div>
-          <div className="feature-item-howto" style={{alignItems: "start"}}>
-            <h3>How to Use</h3>
-            <p>Step 1. Start Bubbles, add a bubble</p>
-            <p>Step 2. Select files from folder of choice</p>
-            <p>Step 3. Drag them into a bubble</p>
-            <p>Step 4. Go to the application/website where you want to share those files</p>
-            <p>Step 5. Drag FROM the bubble, drop on the application/website</p>
           </div>
         </div>
       </section>

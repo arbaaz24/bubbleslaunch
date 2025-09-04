@@ -233,6 +233,88 @@ html {
   color: #444;
 }
 
+/* Video and How-to Section */
+.video-howto-section {
+  padding: 4rem 2rem;
+  background: #f7f9fb;
+  text-align: center;
+}
+
+.video-howto-section h2 {
+  font-size: 2.5rem;
+  color: #0078d7;
+  margin-bottom: 2rem;
+  font-weight: 700;
+}
+
+.video-howto-container {
+  display: flex;
+  gap: 3rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: flex-start;
+}
+
+.video-container {
+  flex: 0 0 400px;
+  position: relative;
+  width: 400px;
+  height: 0;
+  padding-bottom: 225px; /* 400px * 9/16 = 225px for 16:9 ratio */
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+}
+
+.youtube-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.howto-steps {
+  flex: 1;
+  text-align: left;
+  background: linear-gradient(135deg, #f8fbff 0%, #f0f8ff 100%);
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 6px 24px rgba(0, 120, 215, 0.1);
+  border: 1px solid rgba(0, 120, 215, 0.1);
+}
+
+.howto-steps h3 {
+  color: #0078d7;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+.howto-steps p {
+  color: #444;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 0.8rem;
+  padding-left: 1rem;
+}
+
+@media (max-width: 768px) {
+  .video-howto-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .video-howto-section h2 {
+    font-size: 2rem;
+  }
+  
+  .howto-steps {
+    text-align: center;
+  }
+}
+
 .contact {
   padding: 3rem 2rem;
   background: #fff;
