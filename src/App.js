@@ -154,7 +154,7 @@ function App() {
             <p>This app may trigger a SmartScreen warning because it's newly published by an independent developer.
               Microsoft uses a reputation-based system, and new apps take time to build trust.
               As more users download and run it, the warning will disappear automatically. 
-              You can install the app by clicking on 'More Info' &gt; Run.
+              You can install the app by clicking on 'More Info' &gt; Run anyway.
             </p>
           </div>
         </div>
