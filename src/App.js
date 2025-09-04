@@ -146,6 +146,19 @@ function App() {
           <button type="submit" className="submit-btn">Send Message</button>
         </form>
       </section>
+      <section className="threat-protection">
+        <div className="threat-protection-content">
+          <img src="/threat_protection_bubbles.png" alt="Threat Protection Bubbles" className="threat-protection-image" />
+          <div className="threat-protection-description">
+            <h3>Advanced Threat Protection</h3>
+            <p>This app may trigger a SmartScreen warning because it's newly published by an independent developer.
+              Microsoft uses a reputation-based system, and new apps take time to build trust.
+              As more users download and run it, the warning will disappear automatically. 
+              You can install the app by clicking on 'More Info' &gt; Run.
+            </p>
+          </div>
+        </div>
+      </section>
       <footer className="footer">
         <p>&copy; 2025 Bubbles. All rights reserved.</p>
       </footer>

@@ -419,6 +419,58 @@ html {
   animation: bubble-rise linear forwards;
 }
 
+/* Threat Protection Section */
+.threat-protection {
+  padding: 4rem 2rem;
+  background: #f8fbff;
+  margin-top: 2rem;
+}
+
+.threat-protection-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.threat-protection-image {
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.threat-protection-description {
+  flex: 1;
+  min-width: 300px;
+}
+
+.threat-protection-description h3 {
+  font-size: 2rem;
+  color: #0078d7;
+  margin-bottom: 1rem;
+}
+
+.threat-protection-description p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .threat-protection-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .threat-protection-image {
+    max-width: 100%;
+  }
+}
+
 @keyframes bubble-rise {
   0% {
     transform: translateY(0) scale(1);
